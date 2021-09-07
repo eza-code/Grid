@@ -1,0 +1,50 @@
+.container {
+    width: 600px;
+    height: 900px;
+    display: grid;
+    background :white ;
+    grid-template-columns: 50px 50px 50px ;
+    grid-template-rows: 48px 160px  ;
+    column-gap: 12px;
+    row-gap: 12px;
+    
+    
+    }
+    
+    .box1 {
+        background: black;
+        border: 1px solid black;
+    
+    }
+    
+    .box2 {
+    
+        background: black;
+        border: 1px solid black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+    }
+    
+    .box3 {
+        background: black;
+        border: 1px solid black;
+    
+    
+    
+    }
+     .box4 {
+    
+        background: black;
+        border: 1px solid black;
+    
+    
+     }
+    
+     .box5 {
+    
+    
+        background:black;
+        border: 1px solid black;
+    
+     }

@@ -1,0 +1,54 @@
+.container {
+    width: 600px;
+    height: 900px;
+    display: grid;
+    background: white;
+    grid-template-columns: 50px 50px 50px  ;
+    grid-template-rows: 140px 140px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.box1 {
+background: black ;
+border: 1px solid black;
+width: 100px;
+
+}
+
+.box2 {
+
+    background: black ;
+    border: 1px solid black;
+    width: 100px;
+    margin-left: 1px;
+grid-column-start: 1;
+grid-column-start: 3;
+}
+
+.box3 {
+
+    background: black;
+    border: 1px solid black;
+    width: 50px;
+    
+
+}
+
+.box4 {
+
+    background: black ;
+    border: 1px solid black;
+    width: 50px;
+   margin-left: 20px;
+}
+
+.box5 {
+
+    background: black;
+    border: 1px solid black;
+    width: 50px;
+    margin-left: 50px;
+
+
+}

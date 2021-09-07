@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    .grid {
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-gap: 1rem;
+    grid-template-rows: 300px 300px;
+    margin-left : 10px;
+    }
+    
+    
+    .grid-item {
+    
+    background:  black;
+    text-align: center;
+    padding: 1rem;
+    
+    
+    
+    }
